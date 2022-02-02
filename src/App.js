@@ -6,9 +6,18 @@ import {CTA, Brand, Navbar} from "./components";
 const App = () => {
   return( 
   <div className="app">
-     
+     <div className="gradient_bg">
+       <Navbar/>
+       <Header/>
+     </div>
+     <Brand/>
+     <WhatGPT3/>
+     <Features/>
+     <Possibility/>
+     <CTA/>
+      <Blog/>
 
-  </div>
+  </div> 
   );
 };
 
